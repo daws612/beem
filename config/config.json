@@ -1,0 +1,24 @@
+{
+    "development": {
+      "username": "root",
+      "password": null,
+      "database": "beem",
+      "host": "127.0.0.1",
+      "dialect": "mysql",
+      "operatorsAliases" : false
+    },
+    "test": {
+      "username": "mean",
+      "password": null,
+      "database": "cartons",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "production": {
+      "username": "mean",
+      "password": null,
+      "database": "cartons",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    }
+  }
