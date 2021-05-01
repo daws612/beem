@@ -20,7 +20,7 @@ rotate('./test.log', function(err) {
 const corsOpts = {
     origin: '*',
 
-    methods: [
+    methods: [ 
         'GET',
         'POST',
     ],
