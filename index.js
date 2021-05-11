@@ -78,8 +78,7 @@ const app = express()
 const http = require('http');
 const socketServer = http.Server(app);
 
-app
-    .use(queryRoute());
+app.use(queryRoute());
 
 //====== Start Socket Server ===================
 socketServer.listen(app.get('port'), () => {
