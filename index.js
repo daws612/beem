@@ -34,7 +34,7 @@ const corsOpts = {
 const app = express()
     .use(cors())
     .set('port', config.port || 9000)
-.use(express.json())
+    .use(express.json())
     .get('/', (req, res) => { res.send({ 'status': true, 'msg': "Server Started." }); })
     .use(function (req, res, next) {
         res.header("Access-Control-Allow-Origin", "*"); // update to match the domain you will make the request from
