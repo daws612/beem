@@ -14,7 +14,7 @@ const queryRoute = require('./routes/queryRoute');
 // move a log file while incrementing existing indexed / rotated logs
 rotate('./test.log', function(err) {
     // ls ./ => test.log test.log.0
-  });
+});
   
 //============ Create Express app and initialize to app variable ========
 const corsOpts = {
